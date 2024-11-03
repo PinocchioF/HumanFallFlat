@@ -1,0 +1,4 @@
+repository "HFF@Pinocchio@cloud"
+  path "/"
+    br "/main"
+    co "/main"
