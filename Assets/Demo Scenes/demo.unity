@@ -4435,36 +4435,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 410943608}
   m_Mesh: {fileID: 4300098, guid: 73f3fbbde37b23946a1ae0275d5be646, type: 3}
---- !u!1 &411388651
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 411388652}
-  m_Layer: 0
-  m_Name: Platform (1)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &411388652
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 411388651}
-  m_LocalRotation: {x: 0.00000017881393, y: 0.000000014901161, z: -0.030667767, w: 0.99952966}
-  m_LocalPosition: {x: -2.9910011, y: -0.60699975, z: -2.8779995}
-  m_LocalScale: {x: 2.8016205, y: 0.9947204, z: 1.3528696}
-  m_Children:
-  - {fileID: 1053564964}
-  - {fileID: 1329101349}
-  m_Father: {fileID: 2116114904}
-  m_RootOrder: 12
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &413876880 stripped
 Transform:
   m_PrefabParentObject: {fileID: 4078725582786578, guid: 13e9ad8f23928474c81cff6cf8b019db,
@@ -12399,19 +12369,17 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1053564963}
-<<<<<<< HEAD:Assets/Demo Scenes/demo.unity
   m_LocalRotation: {x: 0.00000017881395, y: -0, z: -0.030667724, w: 0.99952966}
+<<<<<<< HEAD
   m_LocalPosition: {x: -2.9930012, y: -0.6110005, z: -2.6380002}
-  m_LocalScale: {x: 2.8016195, y: 0.99472004, z: 1.3528696}
 =======
-  m_LocalRotation: {x: -0, y: -0, z: -2.664535e-15, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
->>>>>>> fbfce381d7ff30d27fbbff89ab368e85509c205e:Assets/Demo Scenes/demo1.unity
+  m_LocalPosition: {x: -2.991, y: -0.607, z: -2.878}
+>>>>>>> parent of f330882 (修复了人物在方块上站不住的bug)
+  m_LocalScale: {x: 2.8016195, y: 0.99472004, z: 1.3528696}
   m_Children:
   - {fileID: 1201929371}
-  m_Father: {fileID: 411388652}
-  m_RootOrder: 0
+  m_Father: {fileID: 2116114904}
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -3.515}
 --- !u!23 &1053564965
 MeshRenderer:
@@ -12453,7 +12421,7 @@ BoxCollider:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1053564963}
-  m_Material: {fileID: 13400000, guid: 1be0b48a7927ca84cb3d5c5e3de36b8f, type: 2}
+  m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
@@ -13730,7 +13698,7 @@ GameObject:
   - component: {fileID: 1201929375}
   - component: {fileID: 1201929374}
   m_Layer: 0
-  m_Name: CheckPlayer
+  m_Name: Check
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -15544,7 +15512,7 @@ Transform:
   m_Father: {fileID: 2116114904}
   m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: -90.00001, y: 0, z: -113.62601}
-<<<<<<< HEAD:Assets/Demo Scenes/demo.unity
+<<<<<<< HEAD
 --- !u!1 &1317492182
 GameObject:
   m_ObjectHideFlags: 0
@@ -15555,28 +15523,11 @@ GameObject:
   - component: {fileID: 1317492183}
   m_Layer: 0
   m_Name: Group21
-=======
---- !u!1 &1329101348
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 1329101349}
-  - component: {fileID: 1329101350}
-  - component: {fileID: 1329101353}
-  - component: {fileID: 1329101352}
-  - component: {fileID: 1329101351}
-  m_Layer: 0
-  m_Name: CheckFall
->>>>>>> fbfce381d7ff30d27fbbff89ab368e85509c205e:Assets/Demo Scenes/demo1.unity
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
-<<<<<<< HEAD:Assets/Demo Scenes/demo.unity
 --- !u!4 &1317492183
 Transform:
   m_ObjectHideFlags: 0
@@ -15709,116 +15660,7 @@ MeshFilter:
   m_GameObject: {fileID: 1335130496}
   m_Mesh: {fileID: 4300006, guid: fb3da9740e394c94a8a68a56d7ad0828, type: 3}
 =======
---- !u!4 &1329101349
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1329101348}
-  m_LocalRotation: {x: -0, y: -5.32907e-15, z: -0.000000029802322, w: 1}
-  m_LocalPosition: {x: -0, y: -0, z: -2.255}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 411388652}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!65 &1329101350
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1329101348}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &1329101351
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1329101348}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 2113952991, guid: c386120fc5e1d664eaf46f801f628209, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  nodeColour: {r: 1, g: 1, b: 1, a: 1}
-  pos: {x: 297, y: 82}
-  priority: 0
-  input:
-    connectedNode: {fileID: 1329101352}
-    connectedSocket: output
-    initialValue: 0
-  onlyTriggerOnce: 0
-  triggerEvent:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1053564968}
-        m_MethodName: set_isKinematic
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 1
-        m_CallState: 2
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
-  resetEvent:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
---- !u!114 &1329101352
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1329101348}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -1413948417, guid: c386120fc5e1d664eaf46f801f628209, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  nodeColour: {r: 1, g: 1, b: 1, a: 1}
-  pos: {x: -9, y: 61}
-  priority: 0
-  output:
-    initialValue: 0
-  colliderToCheckFor: {fileID: 1053564966}
-  additionalColliders: []
-  outputValueInside: 1
-  outputValueOutside: 0
-  isPlayerCheckOnActivateAndDeactivate: 0
-  activateOnEnter: []
-  deactivateOnExit: []
-  runExitLogicAtStartup: 0
-  trackColliders: 1
-  useChildTriggers: 0
---- !u!114 &1329101353
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1329101348}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 980100005, guid: c386120fc5e1d664eaf46f801f628209, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  nodeColour: {r: 1, g: 1, b: 1, a: 1}
-  pos: {x: 10, y: 10}
-  priority: 0
-  inputsPos: {x: 10, y: 10}
-  outputsPos: {x: 10, y: 10}
-  inputs: []
-  outputs: []
->>>>>>> fbfce381d7ff30d27fbbff89ab368e85509c205e:Assets/Demo Scenes/demo1.unity
+>>>>>>> parent of f330882 (修复了人物在方块上站不住的bug)
 --- !u!1 &1347977005
 GameObject:
   m_ObjectHideFlags: 0
@@ -26188,12 +26030,11 @@ Transform:
   - {fileID: 1467239815}
   - {fileID: 1313562970}
   - {fileID: 2004289191}
-<<<<<<< HEAD:Assets/Demo Scenes/demo.unity
   - {fileID: 1053564964}
+<<<<<<< HEAD
   - {fileID: 1539980678}
 =======
-  - {fileID: 411388652}
->>>>>>> fbfce381d7ff30d27fbbff89ab368e85509c205e:Assets/Demo Scenes/demo1.unity
+>>>>>>> parent of f330882 (修复了人物在方块上站不住的bug)
   m_Father: {fileID: 1891687447}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
