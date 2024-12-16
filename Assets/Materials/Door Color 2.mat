@@ -6,7 +6,7 @@ Material:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: Glass
+  m_Name: Door Color 2
   m_Shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
   m_ShaderKeywords: _ALPHAPREMULTIPLY_ON _EMISSION
   m_LightmapFlags: 1
@@ -63,7 +63,7 @@ Material:
     - _GlossMapScale: 1
     - _Glossiness: 0.542
     - _GlossyReflections: 1
-    - _Metallic: 0.832
+    - _Metallic: 0.553
     - _Mode: 3
     - _OcclusionStrength: 1
     - _Parallax: 0.02
@@ -73,5 +73,5 @@ Material:
     - _UVSec: 0
     - _ZWrite: 0
     m_Colors:
-    - _Color: {r: 0.53979236, g: 0.62815243, b: 0.7058823, a: 0.184}
-    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _Color: {r: 0.48269892, g: 0.7058823, b: 0.6597064, a: 0}
+    - _EmissionColor: {r: 0.47102073, g: 0.72794116, b: 0.64289165, a: 1}
