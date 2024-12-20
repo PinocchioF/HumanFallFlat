@@ -239,7 +239,7 @@ GameObject:
   - component: {fileID: 23151290733043372}
   - component: {fileID: 64821009770341706}
   m_Layer: 0
-  m_Name: "\u67F1\u4F53.007"
+  m_Name: "\u5149\u7EBF\u53D1\u5C04\u5668"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -638,7 +638,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_Materials:
-  - {fileID: 2100000, guid: a659fc5c47a9d6e4fa7d5680e92db24f, type: 3}
+  - {fileID: 2100000, guid: 2a80b79947c7e984ca411dea7b52df18, type: 2}
   - {fileID: 2100002, guid: a659fc5c47a9d6e4fa7d5680e92db24f, type: 3}
   - {fileID: 2100004, guid: a659fc5c47a9d6e4fa7d5680e92db24f, type: 3}
   m_StaticBatchInfo:
