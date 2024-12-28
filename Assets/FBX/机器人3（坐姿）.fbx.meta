@@ -136,7 +136,12 @@ ModelImporter:
     4300044: "\u67F1\u4F53.004"
     4300046: "\u67F1\u4F53.005"
     4300048: "\u67F1\u4F53.006"
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: No Name
+    second: {fileID: 2100000, guid: 590b5fd14af5b3541b7f76896b440dd5, type: 2}
   materials:
     importMaterials: 1
     materialName: 0

@@ -19,7 +19,29 @@ ModelImporter:
     3300002: "\u67F1\u4F53"
     4300000: "\u67F1\u4F53"
     4300002: "\u5E73\u9762.002"
-  externalObjects: {}
+    6400000: "\u5E73\u9762.002"
+    6400002: "\u67F1\u4F53"
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 1.1
+    second: {fileID: 2100000, guid: 4003c3c67fe61db4f88e246744c205d9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "\u6750\u8D28"
+    second: {fileID: 2100000, guid: 2a80b79947c7e984ca411dea7b52df18, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "\u6750\u8D28.001"
+    second: {fileID: 2100000, guid: 4003c3c67fe61db4f88e246744c205d9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "\u6750\u8D28.002"
+    second: {fileID: 2100000, guid: 74811c40ddd7f9a46ab92bf26d1a0b95, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
@@ -51,13 +73,13 @@ ModelImporter:
     lODScreenPercentages: []
     globalScale: 1
     meshCompression: 0
-    addColliders: 0
+    addColliders: 1
     importVisibility: 1
     importBlendShapes: 1
     importCameras: 1
     importLights: 1
     swapUVChannels: 0
-    generateSecondaryUV: 0
+    generateSecondaryUV: 1
     useFileUnits: 1
     optimizeMeshForGPU: 1
     keepQuads: 0
