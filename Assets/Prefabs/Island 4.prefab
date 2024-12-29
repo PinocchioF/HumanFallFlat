@@ -628,9 +628,6 @@ GameObject:
   - component: {fileID: 4403675576395392}
   - component: {fileID: 33960777247267936}
   - component: {fileID: 23279664534081194}
-  - component: {fileID: 114041221990793068}
-  - component: {fileID: 114055431251413994}
-  - component: {fileID: 65368962573778558}
   - component: {fileID: 114416002200712362}
   m_Layer: 0
   m_Name: "\u5149\u7EBF\u63A5\u53D7\u5668"
@@ -1135,23 +1132,6 @@ GameObject:
   - component: {fileID: 114256853086227140}
   m_Layer: 0
   m_Name: Check
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!1 &1506176473803982
-GameObject:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 4330751511974268}
-  - component: {fileID: 108136732165021908}
-  - component: {fileID: 114222149567767322}
-  m_Layer: 0
-  m_Name: Point light
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3144,19 +3124,6 @@ Transform:
   m_Father: {fileID: 4267686367723148}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!4 &4330751511974268
-Transform:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1506176473803982}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.4, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 4401090183957814}
-  m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4336166220125664
 Transform:
   m_ObjectHideFlags: 1
@@ -3319,7 +3286,6 @@ Transform:
   m_Children:
   - {fileID: 4472411637170570}
   - {fileID: 4919552035714724}
-  - {fileID: 4330751511974268}
   m_Father: {fileID: 4028119650515172}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -4878,7 +4844,7 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_Materials:
   - {fileID: 2100000, guid: 1abe347e61bea9043b57098036e43f88, type: 2}
-  - {fileID: 2100000, guid: 7515a98f84553344bbb87f8570775fa7, type: 2}
+  - {fileID: 2100000, guid: 1abe347e61bea9043b57098036e43f88, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -7294,8 +7260,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.01, y: 0.01, z: 10.050006}
-  m_Center: {x: 0.00000030267984, y: -0.00000011688098, z: 5.000003}
+  m_Size: {x: 0.01, y: 0.01, z: 10.025184}
+  m_Center: {x: 0.00000020685306, y: -0.000000078660996, z: 5.0124173}
 --- !u!65 &65203621787636024
 BoxCollider:
   m_ObjectHideFlags: 1
@@ -7380,18 +7346,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 3, y: 1.5, z: 2}
   m_Center: {x: -15.879946, y: 0.75, z: -45.4287}
---- !u!65 &65368962573778558
-BoxCollider:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1274081557306972}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 0.004453609, y: 0.020000001, z: 0.019999998}
-  m_Center: {x: -0.0005099706, y: 0.00000005956664, z: 0.000000029769122}
 --- !u!65 &65392383132919162
 BoxCollider:
   m_ObjectHideFlags: 1
@@ -8100,42 +8054,6 @@ Light:
   m_UseColorTemperature: 0
   m_ShadowRadius: 0
   m_ShadowAngle: 0
---- !u!108 &108136732165021908
-Light:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1506176473803982}
-  m_Enabled: 1
-  serializedVersion: 8
-  m_Type: 2
-  m_Color: {r: 0.45588237, g: 0.9549695, b: 1, a: 1}
-  m_Intensity: 1
-  m_Range: 2
-  m_SpotAngle: 30
-  m_CookieSize: 10
-  m_Shadows:
-    m_Type: 0
-    m_Resolution: -1
-    m_CustomResolution: -1
-    m_Strength: 1
-    m_Bias: 0.05
-    m_NormalBias: 0.4
-    m_NearPlane: 0.2
-  m_Cookie: {fileID: 0}
-  m_DrawHalo: 0
-  m_Flare: {fileID: 0}
-  m_RenderMode: 0
-  m_CullingMask:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_Lightmapping: 4
-  m_AreaSize: {x: 1, y: 1}
-  m_BounceIntensity: 1
-  m_ColorTemperature: 6570
-  m_UseColorTemperature: 0
-  m_ShadowRadius: 0
-  m_ShadowAngle: 0
 --- !u!108 &108247662848875008
 Light:
   m_ObjectHideFlags: 1
@@ -8270,30 +8188,6 @@ MonoBehaviour:
   runExitLogicAtStartup: 0
   trackColliders: 1
   useChildTriggers: 0
---- !u!114 &114041221990793068
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1274081557306972}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 171930658, guid: c386120fc5e1d664eaf46f801f628209, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  nodeColour: {r: 1, g: 1, b: 1, a: 1}
-  pos: {x: 724, y: 7}
-  priority: 0
-  input:
-    connectedNode: {fileID: 114055431251413994}
-    connectedSocket: output
-    initialValue: 0
-  applyOnAwake: 0
-  from: {r: 0, g: 0, b: 0, a: 1}
-  to: {r: 0.5661765, g: 1, b: 0.9640973, a: 1}
-  elementNumber: 0
-  useMaterialElementNumber: 1
-  showDebug: 0
 --- !u!114 &114049221202526136
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -8333,32 +8227,6 @@ MonoBehaviour:
   output:
     initialValue: 0
   binaryOutput: 1
---- !u!114 &114055431251413994
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1274081557306972}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -1413948417, guid: c386120fc5e1d664eaf46f801f628209, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  nodeColour: {r: 1, g: 1, b: 1, a: 1}
-  pos: {x: 10, y: 10}
-  priority: 0
-  output:
-    initialValue: 0
-  colliderToCheckFor: {fileID: 65201025695982420}
-  additionalColliders: []
-  outputValueInside: 1
-  outputValueOutside: 0
-  isPlayerCheckOnActivateAndDeactivate: 0
-  activateOnEnter: []
-  deactivateOnExit: []
-  runExitLogicAtStartup: 0
-  trackColliders: 1
-  useChildTriggers: 0
 --- !u!114 &114060504618722788
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -8557,7 +8425,7 @@ MonoBehaviour:
   m_Script: {fileID: -2046838673, guid: c386120fc5e1d664eaf46f801f628209, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneId: 42
+  sceneId: 53
 --- !u!114 &114182555848573910
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -8610,27 +8478,6 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
---- !u!114 &114222149567767322
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1506176473803982}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -983619974, guid: c386120fc5e1d664eaf46f801f628209, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  nodeColour: {r: 1, g: 1, b: 1, a: 1}
-  pos: {x: 10, y: 10}
-  priority: 0
-  input:
-    connectedNode: {fileID: 0}
-    connectedSocket: 
-    initialValue: 0
-  applyOnAwake: 0
-  from: 0
-  to: 1
 --- !u!114 &114233023635308778
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -8682,7 +8529,7 @@ MonoBehaviour:
   m_Script: {fileID: -2046838673, guid: c386120fc5e1d664eaf46f801f628209, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneId: 41
+  sceneId: 52
 --- !u!114 &114246908606215086
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -8718,7 +8565,7 @@ MonoBehaviour:
   m_Script: {fileID: -2046838673, guid: c386120fc5e1d664eaf46f801f628209, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneId: 40
+  sceneId: 51
 --- !u!114 &114256423852675372
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -8882,7 +8729,7 @@ MonoBehaviour:
   m_Script: {fileID: -2046838673, guid: c386120fc5e1d664eaf46f801f628209, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneId: 37
+  sceneId: 48
 --- !u!114 &114337988139998812
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -8971,6 +8818,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 23279664534081194}
+        m_MethodName: set_material
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 2100000, guid: 1abe347e61bea9043b57098036e43f88,
+            type: 2}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Material, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
   resetEvent:
@@ -8989,7 +8848,7 @@ MonoBehaviour:
   m_Script: {fileID: -2046838673, guid: c386120fc5e1d664eaf46f801f628209, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneId: 45
+  sceneId: 56
 --- !u!114 &114361554576338394
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -9285,7 +9144,7 @@ MonoBehaviour:
   m_Script: {fileID: -2046838673, guid: c386120fc5e1d664eaf46f801f628209, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneId: 34
+  sceneId: 45
 --- !u!114 &114490256260304230
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -9297,7 +9156,7 @@ MonoBehaviour:
   m_Script: {fileID: -2046838673, guid: c386120fc5e1d664eaf46f801f628209, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneId: 33
+  sceneId: 44
 --- !u!114 &114505531524223056
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -9446,7 +9305,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nodeColour: {r: 1, g: 1, b: 1, a: 1}
-  pos: {x: 351, y: 66}
+  pos: {x: 353, y: 85}
   priority: 0
   input:
     connectedNode: {fileID: 114256423852675372}
@@ -9501,6 +9360,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
+      - m_Target: {fileID: 23279664534081194}
+        m_MethodName: set_material
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 2100000, guid: 7515a98f84553344bbb87f8570775fa7,
+            type: 2}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Material, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
     m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
   resetEvent:
@@ -9519,7 +9390,7 @@ MonoBehaviour:
   m_Script: {fileID: -2046838673, guid: c386120fc5e1d664eaf46f801f628209, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneId: 38
+  sceneId: 49
 --- !u!114 &114632041630729528
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -9814,7 +9685,7 @@ MonoBehaviour:
   m_Script: {fileID: -2046838673, guid: c386120fc5e1d664eaf46f801f628209, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneId: 46
+  sceneId: 57
 --- !u!114 &114733967385508316
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -9917,7 +9788,7 @@ MonoBehaviour:
   m_Script: {fileID: -2046838673, guid: c386120fc5e1d664eaf46f801f628209, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneId: 36
+  sceneId: 47
 --- !u!114 &114776366614841048
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -10044,7 +9915,7 @@ MonoBehaviour:
   m_Script: {fileID: -2046838673, guid: c386120fc5e1d664eaf46f801f628209, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneId: 39
+  sceneId: 50
 --- !u!114 &114838703744043180
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -10133,7 +10004,7 @@ MonoBehaviour:
   m_Script: {fileID: -2046838673, guid: c386120fc5e1d664eaf46f801f628209, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneId: 35
+  sceneId: 46
 --- !u!114 &114849288387973604
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -10402,7 +10273,7 @@ MonoBehaviour:
   m_Script: {fileID: -2046838673, guid: c386120fc5e1d664eaf46f801f628209, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneId: 44
+  sceneId: 55
 --- !u!114 &114986046272947376
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -10490,7 +10361,7 @@ MonoBehaviour:
   m_Script: {fileID: -2046838673, guid: c386120fc5e1d664eaf46f801f628209, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneId: 43
+  sceneId: 54
 --- !u!120 &120869409380056082
 LineRenderer:
   m_ObjectHideFlags: 1
